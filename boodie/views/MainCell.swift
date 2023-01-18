@@ -181,7 +181,7 @@ class MainCell: UICollectionViewCell{
                 goPosterPageButton.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 0).isActive = true
                 goPosterPageButton.bottomAnchor.constraint(equalTo: containerView.bottomAnchor, constant: 0).isActive = true
             }else{
-                
+                self.tableView.tableHeaderView = nil
             }
         }
     }

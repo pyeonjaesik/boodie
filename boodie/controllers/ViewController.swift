@@ -110,6 +110,7 @@ extension ViewController:UICollectionViewDelegate,UICollectionViewDataSource,UIC
         if collectionView == mainCollectionView{
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "MainCell", for: indexPath) as! MainCell
             cell.theaterList = Array(self.theaterList[indexPath.row].values)[0]
+            cell.posterVO = nil
             cell.tableView.reloadData()
             
             cell.presentDetailView = { [weak self] (theaterVO) in
@@ -128,13 +129,13 @@ extension ViewController:UICollectionViewDelegate,UICollectionViewDataSource,UIC
                         cell.posterVO = posterVO
                         self.posters[Array(self.theaterList[indexPath.row].keys)[0]] = posterVO
                     }else{
-                        print("롯데 시네마 /메가 박스 상영시간표가 없어 poster가 없거나,  오류가 발생함.")
+                        cell.posterVO = nil
+                        print("롯데 시네마 /메가 박스 상영시간표가 없어 poster없음.",Array(self.theaterList[indexPath.row].values)[0])
                     }
                 }
             }else{
                 cell.posterVO = self.posters[Array(self.theaterList[indexPath.row].keys)[0]]
             }
-            
             return cell
         }else{
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HeaderCell", for: indexPath) as! HeaderCell
