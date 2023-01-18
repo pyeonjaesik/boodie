@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9355931B-DF30-405F-BF0B-09985E49E437"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF99F688-D755-465A-9307-309D05ED82E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "boodie/controllers/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "DetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CF99F688-D755-465A-9307-309D05ED82E4 - 3fd9d18f0576d39"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boodie.DetailViewController.tableView.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "boodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/projects/boodie/boodie/controllers/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "CF99F688-D755-465A-9307-309D05ED82E4 - 5c0ba8a4f416112d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boodie.DetailViewController.tableView.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "boodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/projects/boodie/boodie/controllers/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "CF99F688-D755-465A-9307-309D05ED82E4 - 4059483491dc0a3a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boodie.DetailViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "boodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/projects/boodie/boodie/controllers/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "CF99F688-D755-465A-9307-309D05ED82E4 - 3a2ca37eb560470a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boodie.DetailViewController.tableView.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "boodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/projects/boodie/boodie/controllers/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "CF99F688-D755-465A-9307-309D05ED82E4 - e44550b6d671348c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boodie.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; boodie.DetailViewController"
+                  moduleName = "boodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/projects/boodie/boodie/controllers/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "CF99F688-D755-465A-9307-309D05ED82E4 - 4ca8552e85f76292"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "boodie.DetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;boodie.DetailViewController&gt;"
+                  moduleName = "boodie"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/projects/boodie/boodie/controllers/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "524B01AF-50B2-4C29-BB5A-34242F2616A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "boodie/models/TheaterLotteManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "fetch(cinemaID:playDate:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

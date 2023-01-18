@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62A5805BF5DFDE3666DCC5DE /* Pods_boodie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0528979B65C14EEFF870D77 /* Pods_boodie.framework */; };
 		765BC9C0296A73E70085E5C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BC9BF296A73E70085E5C4 /* AppDelegate.swift */; };
 		765BC9C2296A73E70085E5C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BC9C1296A73E70085E5C4 /* SceneDelegate.swift */; };
 		765BC9C4296A73E70085E5C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BC9C3296A73E70085E5C4 /* ViewController.swift */; };
@@ -14,9 +15,39 @@
 		765BC9CA296A73E70085E5C4 /* boodie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 765BC9C8296A73E70085E5C4 /* boodie.xcdatamodeld */; };
 		765BC9CC296A73E80085E5C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765BC9CB296A73E80085E5C4 /* Assets.xcassets */; };
 		765BC9CF296A73E80085E5C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765BC9CD296A73E80085E5C4 /* LaunchScreen.storyboard */; };
+		765BC9DA296ABA140085E5C4 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BC9D9296ABA130085E5C4 /* MainCell.swift */; };
+		765BC9DE296ACEA10085E5C4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BC9DD296ACEA10085E5C4 /* MovieCell.swift */; };
+		765BC9E1296AD3F40085E5C4 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765BC9E0296AD3F40085E5C4 /* HeaderCell.swift */; };
+		7671F2252973F3BE00B1C02A /* DetailNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671F2242973F3BE00B1C02A /* DetailNavigationController.swift */; };
+		7671F22729742AB900B1C02A /* PosterVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671F22629742AB900B1C02A /* PosterVO.swift */; };
+		7671F22A29742BA200B1C02A /* PoterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7671F22929742BA200B1C02A /* PoterManager.swift */; };
+		76B7F577296C396800734B9C /* TheaterMegaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F576296C396800734B9C /* TheaterMegaManager.swift */; };
+		76B7F579296C3B5300734B9C /* TheaterVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F578296C3B5300734B9C /* TheaterVO.swift */; };
+		76B7F57B296C433600734B9C /* TheaterLotteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F57A296C433600734B9C /* TheaterLotteManager.swift */; };
+		76B7F57D296C606000734B9C /* TheaterCGVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F57C296C606000734B9C /* TheaterCGVManager.swift */; };
+		76B7F57F296CFE5600734B9C /* TheaterLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F57E296CFE5600734B9C /* TheaterLocationManager.swift */; };
+		76B7F581296D3DD100734B9C /* TheaterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F580296D3DD100734B9C /* TheaterData.swift */; };
+		76B7F583296D6E1A00734B9C /* PasreTheaterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F582296D6E1A00734B9C /* PasreTheaterList.swift */; };
+		76B7F586296D7E5500734B9C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F585296D7E5500734B9C /* String.swift */; };
+		76B7F588296F9AEA00734B9C /* cofig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F587296F9AEA00734B9C /* cofig.swift */; };
+		76B7F58A296FFB2C00734B9C /* SetDateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F589296FFB2C00734B9C /* SetDateController.swift */; };
+		76B7F58C29701E6A00734B9C /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F58B29701E6A00734B9C /* CLPlacemark.swift */; };
+		76B7F58E29702EAE00734B9C /* SetAdressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F58D29702EAE00734B9C /* SetAdressController.swift */; };
+		76B7F59029705F2E00734B9C /* GeometryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F58F29705F2E00734B9C /* GeometryManager.swift */; };
+		76B7F592297103A000734B9C /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F591297103A000734B9C /* Double.swift */; };
+		76B7F5942971464100734B9C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F5932971464100734B9C /* DetailViewController.swift */; };
+		76B7F5962971603F00734B9C /* SeatCGVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F5952971603F00734B9C /* SeatCGVManager.swift */; };
+		76B7F59829717B1800734B9C /* SeatVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F59729717B1800734B9C /* SeatVO.swift */; };
+		76B7F59A2971972400734B9C /* SeatLotteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F5992971972400734B9C /* SeatLotteManager.swift */; };
+		76B7F59C2971A29500734B9C /* SeatMegaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F59B2971A29500734B9C /* SeatMegaManager.swift */; };
+		76B7F59E2972555600734B9C /* TheaterRecoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F59D2972555600734B9C /* TheaterRecoCell.swift */; };
+		76B7F5A02972A4F300734B9C /* SeatRecoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F59F2972A4F300734B9C /* SeatRecoManager.swift */; };
+		76B7F5A22972BB1B00734B9C /* RecoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F5A12972BB1B00734B9C /* RecoCollectionView.swift */; };
+		76B7F5A42972BB4200734B9C /* RecoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7F5A32972BB4200734B9C /* RecoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12F6DF18431EF6612D24DC70 /* Pods-boodie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boodie.release.xcconfig"; path = "Target Support Files/Pods-boodie/Pods-boodie.release.xcconfig"; sourceTree = "<group>"; };
 		765BC9BC296A73E70085E5C4 /* boodie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boodie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		765BC9BF296A73E70085E5C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		765BC9C1296A73E70085E5C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +57,37 @@
 		765BC9CB296A73E80085E5C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		765BC9CE296A73E80085E5C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		765BC9D0296A73E80085E5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765BC9D9296ABA130085E5C4 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		765BC9DD296ACEA10085E5C4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		765BC9E0296AD3F40085E5C4 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		7671F2242973F3BE00B1C02A /* DetailNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNavigationController.swift; sourceTree = "<group>"; };
+		7671F22629742AB900B1C02A /* PosterVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterVO.swift; sourceTree = "<group>"; };
+		7671F22929742BA200B1C02A /* PoterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoterManager.swift; sourceTree = "<group>"; };
+		76B7F576296C396800734B9C /* TheaterMegaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterMegaManager.swift; sourceTree = "<group>"; };
+		76B7F578296C3B5300734B9C /* TheaterVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterVO.swift; sourceTree = "<group>"; };
+		76B7F57A296C433600734B9C /* TheaterLotteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterLotteManager.swift; sourceTree = "<group>"; };
+		76B7F57C296C606000734B9C /* TheaterCGVManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterCGVManager.swift; sourceTree = "<group>"; };
+		76B7F57E296CFE5600734B9C /* TheaterLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterLocationManager.swift; sourceTree = "<group>"; };
+		76B7F580296D3DD100734B9C /* TheaterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterData.swift; sourceTree = "<group>"; };
+		76B7F582296D6E1A00734B9C /* PasreTheaterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasreTheaterList.swift; sourceTree = "<group>"; };
+		76B7F585296D7E5500734B9C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		76B7F587296F9AEA00734B9C /* cofig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cofig.swift; sourceTree = "<group>"; };
+		76B7F589296FFB2C00734B9C /* SetDateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDateController.swift; sourceTree = "<group>"; };
+		76B7F58B29701E6A00734B9C /* CLPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
+		76B7F58D29702EAE00734B9C /* SetAdressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAdressController.swift; sourceTree = "<group>"; };
+		76B7F58F29705F2E00734B9C /* GeometryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryManager.swift; sourceTree = "<group>"; };
+		76B7F591297103A000734B9C /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		76B7F5932971464100734B9C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		76B7F5952971603F00734B9C /* SeatCGVManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatCGVManager.swift; sourceTree = "<group>"; };
+		76B7F59729717B1800734B9C /* SeatVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatVO.swift; sourceTree = "<group>"; };
+		76B7F5992971972400734B9C /* SeatLotteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatLotteManager.swift; sourceTree = "<group>"; };
+		76B7F59B2971A29500734B9C /* SeatMegaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatMegaManager.swift; sourceTree = "<group>"; };
+		76B7F59D2972555600734B9C /* TheaterRecoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterRecoCell.swift; sourceTree = "<group>"; };
+		76B7F59F2972A4F300734B9C /* SeatRecoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatRecoManager.swift; sourceTree = "<group>"; };
+		76B7F5A12972BB1B00734B9C /* RecoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoCollectionView.swift; sourceTree = "<group>"; };
+		76B7F5A32972BB4200734B9C /* RecoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoCell.swift; sourceTree = "<group>"; };
+		B95537444B0FC5457B3BBF3B /* Pods-boodie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boodie.debug.xcconfig"; path = "Target Support Files/Pods-boodie/Pods-boodie.debug.xcconfig"; sourceTree = "<group>"; };
+		F0528979B65C14EEFF870D77 /* Pods_boodie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_boodie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A5805BF5DFDE3666DCC5DE /* Pods_boodie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +107,8 @@
 			children = (
 				765BC9BE296A73E70085E5C4 /* boodie */,
 				765BC9BD296A73E70085E5C4 /* Products */,
+				C20ECF13EEA67FD2D892F21A /* Pods */,
+				BDA48A068F6880AD97B88A17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +125,10 @@
 			children = (
 				765BC9BF296A73E70085E5C4 /* AppDelegate.swift */,
 				765BC9C1296A73E70085E5C4 /* SceneDelegate.swift */,
-				765BC9C3296A73E70085E5C4 /* ViewController.swift */,
+				76B7F584296D7E3F00734B9C /* helper */,
+				765BC9D7296AB8F30085E5C4 /* views */,
+				765BC9D8296AB8F90085E5C4 /* controllers */,
+				765BC9D6296AB8E50085E5C4 /* models */,
 				765BC9C5296A73E70085E5C4 /* Main.storyboard */,
 				765BC9CB296A73E80085E5C4 /* Assets.xcassets */,
 				765BC9CD296A73E80085E5C4 /* LaunchScreen.storyboard */,
@@ -70,6 +138,89 @@
 			path = boodie;
 			sourceTree = "<group>";
 		};
+		765BC9D6296AB8E50085E5C4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7671F22829742AC000B1C02A /* VO */,
+				76B7F576296C396800734B9C /* TheaterMegaManager.swift */,
+				76B7F57A296C433600734B9C /* TheaterLotteManager.swift */,
+				76B7F57C296C606000734B9C /* TheaterCGVManager.swift */,
+				76B7F57E296CFE5600734B9C /* TheaterLocationManager.swift */,
+				76B7F582296D6E1A00734B9C /* PasreTheaterList.swift */,
+				76B7F58F29705F2E00734B9C /* GeometryManager.swift */,
+				76B7F5952971603F00734B9C /* SeatCGVManager.swift */,
+				76B7F5992971972400734B9C /* SeatLotteManager.swift */,
+				76B7F59B2971A29500734B9C /* SeatMegaManager.swift */,
+				76B7F59F2972A4F300734B9C /* SeatRecoManager.swift */,
+				7671F22929742BA200B1C02A /* PoterManager.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		765BC9D7296AB8F30085E5C4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				765BC9D9296ABA130085E5C4 /* MainCell.swift */,
+				765BC9DD296ACEA10085E5C4 /* MovieCell.swift */,
+				765BC9E0296AD3F40085E5C4 /* HeaderCell.swift */,
+				76B7F59D2972555600734B9C /* TheaterRecoCell.swift */,
+				76B7F5A12972BB1B00734B9C /* RecoCollectionView.swift */,
+				76B7F5A32972BB4200734B9C /* RecoCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		765BC9D8296AB8F90085E5C4 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				765BC9C3296A73E70085E5C4 /* ViewController.swift */,
+				76B7F589296FFB2C00734B9C /* SetDateController.swift */,
+				76B7F58D29702EAE00734B9C /* SetAdressController.swift */,
+				76B7F5932971464100734B9C /* DetailViewController.swift */,
+				7671F2242973F3BE00B1C02A /* DetailNavigationController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		7671F22829742AC000B1C02A /* VO */ = {
+			isa = PBXGroup;
+			children = (
+				76B7F59729717B1800734B9C /* SeatVO.swift */,
+				7671F22629742AB900B1C02A /* PosterVO.swift */,
+				76B7F578296C3B5300734B9C /* TheaterVO.swift */,
+				76B7F580296D3DD100734B9C /* TheaterData.swift */,
+			);
+			path = VO;
+			sourceTree = "<group>";
+		};
+		76B7F584296D7E3F00734B9C /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				76B7F585296D7E5500734B9C /* String.swift */,
+				76B7F587296F9AEA00734B9C /* cofig.swift */,
+				76B7F58B29701E6A00734B9C /* CLPlacemark.swift */,
+				76B7F591297103A000734B9C /* Double.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		BDA48A068F6880AD97B88A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0528979B65C14EEFF870D77 /* Pods_boodie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C20ECF13EEA67FD2D892F21A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B95537444B0FC5457B3BBF3B /* Pods-boodie.debug.xcconfig */,
+				12F6DF18431EF6612D24DC70 /* Pods-boodie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 765BC9D3296A73E80085E5C4 /* Build configuration list for PBXNativeTarget "boodie" */;
 			buildPhases = (
+				88757624922C651ED1C7973F /* [CP] Check Pods Manifest.lock */,
 				765BC9B8296A73E70085E5C4 /* Sources */,
 				765BC9B9296A73E70085E5C4 /* Frameworks */,
 				765BC9BA296A73E70085E5C4 /* Resources */,
+				7D6B3854AEDFA6D2CA9566BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +289,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D6B3854AEDFA6D2CA9566BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-boodie/Pods-boodie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-boodie/Pods-boodie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boodie/Pods-boodie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88757624922C651ED1C7973F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-boodie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		765BC9B8296A73E70085E5C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76B7F586296D7E5500734B9C /* String.swift in Sources */,
+				76B7F59829717B1800734B9C /* SeatVO.swift in Sources */,
+				765BC9DE296ACEA10085E5C4 /* MovieCell.swift in Sources */,
+				76B7F5962971603F00734B9C /* SeatCGVManager.swift in Sources */,
+				76B7F5A42972BB4200734B9C /* RecoCell.swift in Sources */,
+				76B7F592297103A000734B9C /* Double.swift in Sources */,
+				76B7F5A02972A4F300734B9C /* SeatRecoManager.swift in Sources */,
+				76B7F57D296C606000734B9C /* TheaterCGVManager.swift in Sources */,
 				765BC9C4296A73E70085E5C4 /* ViewController.swift in Sources */,
+				76B7F583296D6E1A00734B9C /* PasreTheaterList.swift in Sources */,
+				76B7F581296D3DD100734B9C /* TheaterData.swift in Sources */,
+				7671F22729742AB900B1C02A /* PosterVO.swift in Sources */,
+				7671F22A29742BA200B1C02A /* PoterManager.swift in Sources */,
 				765BC9CA296A73E70085E5C4 /* boodie.xcdatamodeld in Sources */,
+				76B7F59029705F2E00734B9C /* GeometryManager.swift in Sources */,
+				76B7F58C29701E6A00734B9C /* CLPlacemark.swift in Sources */,
+				76B7F59C2971A29500734B9C /* SeatMegaManager.swift in Sources */,
+				7671F2252973F3BE00B1C02A /* DetailNavigationController.swift in Sources */,
+				76B7F579296C3B5300734B9C /* TheaterVO.swift in Sources */,
+				76B7F5942971464100734B9C /* DetailViewController.swift in Sources */,
+				76B7F59A2971972400734B9C /* SeatLotteManager.swift in Sources */,
 				765BC9C0296A73E70085E5C4 /* AppDelegate.swift in Sources */,
 				765BC9C2296A73E70085E5C4 /* SceneDelegate.swift in Sources */,
+				76B7F58A296FFB2C00734B9C /* SetDateController.swift in Sources */,
+				765BC9DA296ABA140085E5C4 /* MainCell.swift in Sources */,
+				76B7F5A22972BB1B00734B9C /* RecoCollectionView.swift in Sources */,
+				76B7F57F296CFE5600734B9C /* TheaterLocationManager.swift in Sources */,
+				76B7F577296C396800734B9C /* TheaterMegaManager.swift in Sources */,
+				76B7F57B296C433600734B9C /* TheaterLotteManager.swift in Sources */,
+				76B7F59E2972555600734B9C /* TheaterRecoCell.swift in Sources */,
+				76B7F588296F9AEA00734B9C /* cofig.swift in Sources */,
+				76B7F58E29702EAE00734B9C /* SetAdressController.swift in Sources */,
+				765BC9E1296AD3F40085E5C4 /* HeaderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +510,7 @@
 		};
 		765BC9D4296A73E80085E5C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95537444B0FC5457B3BBF3B /* Pods-boodie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,17 +519,19 @@
 				DEVELOPMENT_TEAM = TAP4M2PF77;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = boodie/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "위치 정보로 근처 영화관을 찾아줄게요.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 정보로 근처 영화관을 찾아줄게요.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testing.boodie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomencity.boodie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -314,6 +541,7 @@
 		};
 		765BC9D5296A73E80085E5C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F6DF18431EF6612D24DC70 /* Pods-boodie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,17 +550,19 @@
 				DEVELOPMENT_TEAM = TAP4M2PF77;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = boodie/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "위치 정보로 근처 영화관을 찾아줄게요.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 정보로 근처 영화관을 찾아줄게요.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testing.boodie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yomencity.boodie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

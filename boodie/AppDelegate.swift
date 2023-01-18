@@ -7,14 +7,19 @@
 
 import UIKit
 import CoreData
+import CoreLocation
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    var latitude:Double?
+    var longitude:Double?
+    var date:Int = 0
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let locationManager = CLLocationManager()
+        locationManager.requestWhenInUseAuthorization()
         return true
     }
 
