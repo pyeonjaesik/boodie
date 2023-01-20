@@ -8,9 +8,6 @@
 
   기획&디자인 90 , 개발 100
 
-**[github]**
-
-[https://github.com/pyeonjaesik/boodie](https://github.com/pyeonjaesik/boodie)
 
 ### **[프로젝트 설명]**
 
