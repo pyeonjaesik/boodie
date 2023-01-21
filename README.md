@@ -837,9 +837,9 @@
     ```
     
 
-**STEP 6)**HeaderCollectionView의 셀을 클릭 했을 때 MainScrollView 또한 스크롤될 수 있도록 조치합니다.
+**STEP 6)** HeaderCollectionView의 셀을 클릭 했을 때 MainScrollView 또한 스크롤될 수 있도록 조치합니다.
 
-- step 6. 코드![%E1%84%87%E1%85%AE%E1%84%83%E1%85%B5%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD](https://user-images.githubusercontent.com/38762911/213625328-b7ee0c47-6e84-49d4-b1a8-09c1e9fbdcd8.png)
+- step 6. 코드
     
     ```swift
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
