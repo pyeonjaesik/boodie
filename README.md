@@ -7,6 +7,10 @@
 **[기여도]**
 
   기획&디자인 90 , 개발 100
+  
+**[app store]**
+
+[‎부디 boodie](https://apps.apple.com/kr/app/%EB%B6%80%EB%94%94-boodie/id1477940717)
 
 
 ### **[프로젝트 설명]**
